@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
+import SelectedCardDetails from "../SelectedCardDetails/SelectedCardDetails";
 
 
 const CardDetails = () => {
@@ -12,11 +13,11 @@ const CardDetails = () => {
         const findCard = cards.find(card => card.id === id)
         setCard(findCard) 
     },[id, cards])
-    console.log(card);
-    console.log(id);
     return (
-        <div>
-            Card Details
+        <div className="h-[60vh]">
+            {
+                <SelectedCardDetails card={card}></SelectedCardDetails>
+            }
         </div>
     );
 };
