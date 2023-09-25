@@ -23,8 +23,6 @@ const Card = ({ card }) => {
                         {title}
                     </p>
                 </div>
-                <div className="p-6 pt-0">
-                </div>
             </div>
         </Link>
     );

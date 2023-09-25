@@ -9,21 +9,22 @@ const SelectedCardDetails = ({ card }) => {
     const handleAddToDonate = () => {
 
         const donateItemArray = []
-       const donationItems = JSON.parse(localStorage.getItem('donate'))
-       if(!donationItems){
-        donateItemArray.push(card)
-        localStorage.setItem('donate', JSON.stringify(donateItemArray))
-        toast("Thanks for donate")
-       }else{
-        const isExists = donationItems.find(donateCard => donateCard.id === id)
-        if(!isExists){
-            donateItemArray.push(...donationItems, card)
+        const donationItems = JSON.parse(localStorage.getItem('donate'))
+        if (!donationItems) {
+            donateItemArray.push(card)
             localStorage.setItem('donate', JSON.stringify(donateItemArray))
-        }else{
-           alert('already exists')
-        }
+            toast("Thanks for donate")
+        } else {
+            const isExists = donationItems.find(donateCard => donateCard.id === id)
+            if (!isExists) {
+                donateItemArray.push(...donationItems, card)
+                localStorage.setItem('donate', JSON.stringify(donateItemArray))
+                toast("Thanks for donate")
+            } else {
+                alert('already exists')
+            }
 
-       }
+        }
     }
     return (
         <div>
@@ -35,7 +36,7 @@ const SelectedCardDetails = ({ card }) => {
                     />
                 </div>
                 <div className="w-full h-24 md:h-32 absolute mt-48 md:mt-56 lg:mt-[374px] cardOverlay">
-                    <button style={{ backgroundColor: color}} onClick={handleAddToDonate} className="text-white py-2 px-4 font-semibold rounded-sm m-8 md:m-12" >Donate ${price}</button>
+                    <button style={{ backgroundColor: color }} onClick={handleAddToDonate} className="text-white py-2 px-4 font-semibold rounded-sm m-8 md:m-12" >Donate ${price}</button>
                 </div>
                 <div className="p-6">
                     <h4 className="block font-sans text-2xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
