@@ -1,0 +1,10 @@
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(https://i.ibb.co/r0dWczJ/istockphoto-512278456-170667a.jpg);
+}
