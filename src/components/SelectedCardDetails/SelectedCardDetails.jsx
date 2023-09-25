@@ -2,6 +2,7 @@ import PropTypes from "prop-types"
 import "./SelectedCardDetails.css"
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import swal from "sweetalert";
 
 const SelectedCardDetails = ({ card }) => {
     const { id, price, description, title, image, color } = card;
@@ -21,7 +22,7 @@ const SelectedCardDetails = ({ card }) => {
                 localStorage.setItem('donate', JSON.stringify(donateItemArray))
                 toast("Thanks for donate")
             } else {
-                alert('already exists')
+                swal("Oh!", "You Already Donated!", "error");
             }
 
         }
