@@ -3,8 +3,8 @@ import "./Banner.css"
 const Banner = () => {
     return (
         <div className="h-[50vh] w-full flex justify-center items-center border banner flex flex-col">
-                <h1 className="text-5xl font-bold text-black my-5">I Grow By Helping People In Need</h1>
-            <div className="relative flex h-10 w-full min-w-[200px] max-w-[24rem]">
+                <h1 className="text-2xl md:text-5xl font-bold text-black ml-5 my-5">I Grow By Helping People In Need</h1>
+            <div className="relative flex h-10 w-2/3 md:w-full min-w-[200px] max-w-[24rem]">
                 <input
                     type="text"
                     className="peer h-full w-full rounded-[7px] border border-blue-gray-200 border-t-transparent bg-transparent px-3 py-2.5 pr-20 font-sans text-sm font-normal text-blue-gray-700 outline outline-0 transition-all placeholder-shown:border placeholder-shown:border-blue-gray-200 placeholder-shown:border-t-blue-gray-200 focus:border-2 focus:border-pink-500 focus:border-t-transparent focus:outline-0 disabled:border-0 disabled:bg-blue-gray-50"
