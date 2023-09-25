@@ -1,0 +1,134 @@
+[
+    {
+        "id": "1",
+        "image": "https://i.ibb.co/Bf5jb5K/istockphoto-1319031310-612x612.jpg",
+        "title": "COVID-19 Medical Supplies Relief",
+        "category": "Health",
+        "description": "Join us in making a difference during the ongoing battle against COVID-19. Your generous donation will help us provide vital medical supplies to healthcare workers who are tirelessly fighting the pandemic on the frontlines. Together, we can ensure they have the protective gear and equipment they need to save lives and safeguard their own health. Let's stand united in this critical effort to combat the virus and protect our communities.",
+        "card_bg": "#93c5fd",
+        "category_bg" : "#60a5fa",
+        "color" : "#2563eb",
+        "price": 250 
+    },
+    {
+        "id": "2",
+        "image": "https://i.ibb.co/D12tV6L/139442671-16027529738071n.jpg",
+        "title": "Educational Scholarships for Underprivileged Students",
+        "category": "Education",
+        "description": "Empower the future by supporting educational scholarships for underprivileged students. Your contribution will open doors to quality education for those who would otherwise face barriers to learning. By investing in these young minds, we are not only providing them with opportunities but also strengthening our communities and ensuring a brighter tomorrow. Join us in making education accessible to all, regardless of their financial circumstances.",
+        "card_bg": "#86efac",
+        "category_bg" : "#4ade80",
+        "color" : "#16a34a",
+        "price": 345
+    },
+    {
+        "id": "3",
+        "image": "https://i.ibb.co/56WX4PP/sanaa-yemen-09th-june-2018-a-picture-provided-on-13-june-2018-shows-yemeni-volunteers-prepare-donate.jpg",
+        "title": "Warm Clothing Drive for Winter",
+        "category": "Clothing",
+        "description": "Help us spread warmth and compassion this winter by participating in our Warm Clothing Drive. Your donations of gently used or new warm clothing items will directly benefit those in need, including individuals experiencing homelessness and families struggling to stay warm. Together, we can make a difference by ensuring that no one in our community goes cold during the harsh winter months.",
+        "card_bg": "#fca5a5",
+        "category_bg" : "#f87171",
+        "color" : "#dc2626",
+        "price": 345
+    },
+    {
+        "id": "4",
+        "image": "https://i.ibb.co/rt66bXY/project-103784-body-IMG-6943.jpg",
+        "title": "Hunger Relief Food Drive",
+        "category": "Food",
+        "description": "Join hands with us to fight hunger in our community. Your contribution to our Hunger Relief Food Drive will help us provide nutritious meals to individuals and families facing food insecurity. With your support, we can ensure that no one goes to bed hungry. Together, we can make a meaningful impact and alleviate the suffering caused by hunger.",
+        "card_bg": "#fdba74",
+        "category_bg" : "#fb923c",
+        "color" : "#ea580c",
+        "price": 567
+    },
+    {
+        "id": "5",
+        "image": "https://i.ibb.co/NyCwSpd/images.jpg",
+        "title": "Vaccine Distribution Initiative",
+        "category": "Health",
+        "description": "Support our global effort to distribute life-saving vaccines to underserved communities around the world. Your donation will help ensure that vulnerable populations have access to vaccines, ultimately saving lives and curbing the spread of diseases. By contributing to our Vaccine Distribution Initiative, you are playing a crucial role in protecting the health of people everywhere.",
+        "card_bg": "#93c5fd",
+        "category_bg" : "#60a5fa",
+        "color" : "#2563eb",
+        "price": 234
+    },
+    {
+        "id": "6",
+        "image": "https://i.ibb.co/NCC3fCn/139442671-16027529739171n.jpg",
+        "title": "Digital Learning Devices for Students",
+        "category": "Education",
+        "description": "Bridge the digital divide in education by providing digital learning devices to students in need. Your support will enable these students to access online resources, participate in virtual classrooms, and continue their education even in challenging circumstances. Help us empower the next generation with the tools they need to succeed academically.",
+        "card_bg": "#86efac",
+        "category_bg" : "#4ade80",
+        "color" : "#16a34a",
+        "price": 1234
+    },
+    {
+        "id": "7",
+        "image": "https://i.ibb.co/ZcVJ0KF/images-1.jpg",
+        "title": "Children's Winter Clothing Drive",
+        "category": "Clothing",
+        "description": "This winter, let's ensure that every child stays warm and cozy. Our Children's Winter Clothing Drive aims to collect warm clothing items for children in need. Your donations will bring smiles to the faces of young ones as they bundle up and stay safe from the cold. Join us in spreading warmth and love to the most vulnerable among us.",
+        "card_bg": "#fca5a5",
+        "category_bg" : "#f87171",
+        "color" : "#dc2626",
+        "price": 124
+    },
+    {
+        "id": "8",
+        "image": "https://i.ibb.co/CMxhFbH/yaas-01.jpg",
+        "title": "Meals for Homeless Shelters",
+        "category": "Food",
+        "description": "Make a significant impact on the lives of homeless individuals by contributing to our Meals for Homeless Shelters program. Your donations will help us provide nourishing meals to those without homes. Together, we can offer a glimmer of hope and sustenance to those facing the hardships of homelessness. Join us in this compassionate endeavor.",
+        "card_bg": "#fdba74",
+        "category_bg" : "#fb923c",
+        "color" : "#ea580c",
+        "price": 834
+    },
+    {
+        "id": "9",
+        "image": "https://i.ibb.co/TMHD632/patientsafety-456px.jpg",
+        "title": "Medical Supplies for Rural Clinics",
+        "category": "Health",
+        "description": "Support better healthcare access in rural areas by donating essential medical supplies to clinics that serve underserved communities. Your contribution will enable these clinics to provide quality care and save lives. Join us in ensuring that even remote areas have access to the healthcare they deserve.",
+        "card_bg": "#93c5fd",
+        "category_bg" : "#60a5fa",
+        "color" : "#2563eb",
+        "price": 265
+    },
+    {
+        "id": "10",
+        "image": "https://i.ibb.co/ZfrsJnJ/educ5.jpg",
+        "title": "Library Expansion Project",
+        "category": "Education",
+        "description": "Promote education and knowledge by supporting our Library Expansion Project. Your donations will help us expand libraries in underserved communities, providing access to books, resources, and a conducive learning environment. Together, we can empower individuals to learn, grow, and build a brighter future.",
+        "card_bg": "#86efac",
+        "category_bg" : "#4ade80",
+        "color" : "#16a34a",
+        "price": 390
+    },
+    {
+        "id": "11",
+        "image": "https://i.ibb.co/cFZVc44/Charity-RNS-11-07-21-730x400.jpg",
+        "title": "Blanket and Clothing Distribution",
+        "category": "Clothing",
+        "description": "Extend a helping hand to those without shelter by donating blankets and clothing. Your contributions will provide warmth and comfort to homeless individuals, offering a sense of security during challenging times. Join us in making a positive impact on the lives of those who need it most.",
+        "card_bg": "#fca5a5",
+        "category_bg" : "#f87171",
+        "color" : "#dc2626",
+        "price": 176
+    },
+    {
+        "id": "12",
+        "image": "https://i.ibb.co/mtfd3Qp/Sit-9june-1067x800.jpg",
+        "title": "Emergency Food Relief for Disaster Victims",
+        "category": "Food",
+        "description": "Respond to disasters and crises with emergency food relief. Your donations will help us provide immediate sustenance to victims of natural disasters, ensuring they have access to nutritious meals during their time of need. Together, we can offer support and comfort to those facing adversity.",
+        "card_bg": "#fdba74",
+        "category_bg" : "#fb923c",
+        "color" : "#ea580c",
+        "price": 567
+    }
+]
