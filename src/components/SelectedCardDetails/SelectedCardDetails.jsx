@@ -5,6 +5,7 @@ const SelectedCardDetails = ({ card }) => {
     const { price, description, title, image, color } = card;
     return (
         <div>
+            <h1>Card Details</h1>
             <div className="relative flex w-full md:h-[80vh] my-10 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
                 <div className="relative h-[500px] w-full m-0 overflow-hidden rounded-none bg-transparent bg-clip-border text-gray-700 shadow-none">
                     <img className="h-full w-full object-cover"
