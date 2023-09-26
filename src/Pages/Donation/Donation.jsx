@@ -5,7 +5,7 @@ import DonationCard from "../../components/DonationCard/DonationCard";
 const Donation = () => {
     const [cards, setCards] = useState([])
     const [cardsLength, setCardsLength] = useState(4)
-    // const [isShow, setIsShow] = useState(false)
+
 
     useEffect(() => {
         const donationItems = JSON.parse(localStorage.getItem('donate'))
