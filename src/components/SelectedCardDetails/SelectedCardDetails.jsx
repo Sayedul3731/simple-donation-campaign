@@ -44,7 +44,7 @@ const SelectedCardDetails = ({ card }) => {
                         {title}
                     </h4>
                     <p className="mt-3 block font-sans text-xl font-normal leading-relaxed text-gray-700 antialiased">
-                        ${description}
+                        {description}
                     </p>
                 </div>
             </div>
