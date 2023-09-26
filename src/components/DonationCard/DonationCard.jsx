@@ -24,7 +24,7 @@ const DonationCard = ({ card }) => {
                     <p style={{ color }} className="block font-sans text-sm font-normal leading-normal text-gray-700 text-3xl font-semibold antialiased opacity-75">
                         ${price}
                     </p>
-                    <button style={{ backgroundColor: color }} className="text-white py-2 px-4 font-semibold rounded-sm mt-5 " >View Details</button>
+                        <button style={{ backgroundColor: color }} className="text-white py-2 px-4 font-semibold rounded-sm mt-5 " >View Details</button>
                 </div>
             </div>
         </div>
