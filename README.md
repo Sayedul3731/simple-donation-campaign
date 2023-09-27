@@ -1,12 +1,13 @@
 # simple-donation-campaign
 
 3 features explanation of my 'simple-dontaion-campaign' project:
-* there is a navbar in my project where right side 3 menu pages 'Home', 'donation', 'statistics'
-and left side one logo. When click on the 3 menu pages show the menu items individually. When click on 'Home' page
-show the 'Home' page data and when click on the 'donation' page show the donation all data.
+* There is a navbar in my project where right side 3 menu pages 'Home', 'donation', 'statistics'
+and left side a logo. When click on the 3 menu pages show the menu items individually. When click on 'Home' page
+show the 'Home' page data and when click on the 'donation' page show the donation all data and when you click on the 'statistics' page show a dynamic pie chart.
+There will show donated data and undonated data percentage.
 
 * There is a banner section where is a search input field and 12 donation card in the 'Home' page.
-When click on the individual card show the card details in the dynamic router. In details card have a 'donate' button If you want to donate
+When click on the individual card show the card details in the dynamic router. In details card have a 'Donate' button If you want to donate
 just click on the 'Donate' button. When click on the 'Donate' button show a toast 'Thanks for donate' and at the same time the donated card 
 add the 'donation' page.
 
