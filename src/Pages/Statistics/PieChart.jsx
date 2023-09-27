@@ -16,7 +16,7 @@ const Chart = () => {
     };
     const [cards, setCards] = useState([])
     const [donateCards, setDonateCards] = useState([])
-    
+
 
     const chartArray = []
 
@@ -43,21 +43,35 @@ const Chart = () => {
     }, [])
 
     return (
-        <PieChart className='mt-24 md:ml-48 lg:ml-[400px] lg:mt-32' width={400} height={400}>
-            <Pie
-                data={chartArray}
-                cx="50%"
-                cy="50%"
-                labelLine={false}
-                label={renderCustomizedLabel}
-                dataKey="length"
-               
-            >
-                {cards.map((entry, index) => (
-                    <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
-                ))}
-            </Pie>
-        </PieChart>
+        <div className='flex flex-col justify-center items-center mt-20'>
+            <PieChart width={400} height={400}>
+                <Pie
+                    data={chartArray}
+                    cx="50%"
+                    cy="50%"
+                    labelLine={false}
+                    label={renderCustomizedLabel}
+                    dataKey="length"
+
+                >
+                    {cards.map((entry, index) => (
+                        <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+                    ))}
+                </Pie>
+            </PieChart>
+            <div className='flex flex-col md:flex-row justify-center gap-5 mt-5'>
+                <div className='flex  items-center gap-5'>
+                    <h3>Your Donation</h3>
+                    <div className='w-28 h-4 bg-[#00C49F]'>
+                    </div>
+                </div>
+                <div className='flex items-center gap-5'>
+                    <h3>Total Donation</h3>
+                    <div className='w-28 h-4 bg-[#FF444A]'>
+                    </div>
+                </div>
+            </div>
+        </div>
     );
 };
 
