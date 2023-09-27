@@ -12,7 +12,7 @@ const Banner = () => {
 
 
     useEffect(() => {
-        fetch('/donation.json')
+        fetch('donation.json')
             .then(res => res.json())
             .then(data => setPreviousCards(data))
     }, [])

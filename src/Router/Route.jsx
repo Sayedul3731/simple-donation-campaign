@@ -5,6 +5,8 @@ import ErrorPage from "../components/ErrorPage/ErrorPage";
 import CardDetails from "../components/CardDetails/CardDetails";
 import Donation from "../Pages/Donation/Donation";
 import Chart from "../Pages/Statistics/PieChart";
+import PageNotFound from "../components/PageNotFound/PageNotFound";
+
 
 
 
@@ -29,7 +31,11 @@ const myCreatedRoute = createBrowserRouter([
             {
                 path: "/card/:id",
                 element: <CardDetails></CardDetails>,
-                loader: () => fetch('/donation.json')
+                loader: () => fetch('donation.json')
+            }, 
+            {
+                path: "*",
+                element: <PageNotFound></PageNotFound>
             }
         ]
     }
