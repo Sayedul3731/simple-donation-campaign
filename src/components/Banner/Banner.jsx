@@ -1,32 +1,49 @@
 import { useEffect, useState } from "react";
 import "./Banner.css"
+import { CardContext } from "../../Pages/Home/Home";
+import { useContext } from "react"
+
 
 const Banner = () => {
-  
-    const [cards, setCards] = useState([])
+
+    const [previousCards, setPreviousCards] = useState([])
+
+    const [cards, setCards] = useContext(CardContext)
+
 
     useEffect(() => {
-     fetch('/donation.json')
-     .then(res => res.json())
-     .then(data => setCards(data))
-    },[])
-    const handleSearch = (e) => {
-      const inputText = e.target.value;
-      console.log(inputText);
-      console.log(cards.length);
+        fetch('/donation.json')
+            .then(res => res.json())
+            .then(data => setPreviousCards(data))
+    }, [])
+
+    const [inputValue, setInputValue] = useState('');
+    const handleInputField = (e) => {
+        setInputValue(e.target.value)
     }
+    const handleButtonSearch = () => {
+        const filteredCards = (previousCards.filter(card => card.category == inputValue));
+        setCards(filteredCards)
+    }
+    console.log(cards.length);
+
+
+
+
     return (
         <div className="h-[50vh] w-full flex justify-center bg-slate-200 bg-blend-screen   items-center banner flex flex-col">
-                <h1 className="text-2xl md:text-5xl font-bold text-black ml-5 my-5">I Grow By Helping People In Need</h1>
+            <h1 className="text-2xl md:text-5xl font-bold text-black ml-5 my-5">I Grow By Helping People In Need</h1>
+
             <div className="relative flex h-10 w-2/3 md:w-full min-w-[200px] max-w-[24rem]">
                 <input
-                onChange={handleSearch}
+                    value={inputValue}
+                    onChange={handleInputField}
                     type="text"
                     className="peer h-full w-full rounded-[7px] border border-blue-gray-200 border-t-transparent bg-transparent px-3 py-2.5 pr-20 font-sans text-sm font-normal text-blue-gray-700 outline outline-0 transition-all placeholder-shown:border placeholder-shown:border-blue-gray-200 placeholder-shown:border-t-blue-gray-200 focus:border-2 focus:border-pink-500 focus:border-t-transparent focus:outline-0 disabled:border-0 disabled:bg-blue-gray-50"
                     placeholder=" "
                     required
                 />
-                <button 
+                <button onClick={handleButtonSearch}
                     className="!absolute right-1 top-1 z-10 select-none rounded bg-[#FF444A] py-2 px-4 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-pink-500/20 transition-all hover:shadow-lg hover:shadow-pink-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none peer-placeholder-shown:pointer-events-none peer-placeholder-shown:bg-blue-gray-500 peer-placeholder-shown:opacity-50 peer-placeholder-shown:shadow-none"
                     type="button"
                     data-ripple-light="true"

@@ -43,8 +43,7 @@ const Chart = () => {
     }, [])
 
     return (
-        <PieChart width={400} height={400}>
-
+        <PieChart className='mt-24 md:ml-48 lg:ml-[400px] lg:mt-32' width={400} height={400}>
             <Pie
                 data={chartArray}
                 cx="50%"
@@ -52,6 +51,7 @@ const Chart = () => {
                 labelLine={false}
                 label={renderCustomizedLabel}
                 dataKey="length"
+               
             >
                 {cards.map((entry, index) => (
                     <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
