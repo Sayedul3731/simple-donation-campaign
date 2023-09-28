@@ -31,7 +31,7 @@ const Chart = () => {
     chartArray.push(fruitsObject2)
 
     useEffect(() => {
-        fetch('/donation.json')
+        fetch('/data.json')
             .then(res => res.json())
             .then(data => setCards(data))
     }, [])
