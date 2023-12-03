@@ -1,6 +1,6 @@
 # simple-donation-campaign
 
-3 features explanation of my 'simple-dontaion-campaign' project:
+3 features explanation of my 'simple-donation-campaign' project:
 * There is a navbar in my project where right side 3 menu pages 'Home', 'donation', 'statistics'
 and left side a logo. When click on the 3 menu pages show the menu items individually. When click on 'Home' page
 show the 'Home' page data and when click on the 'donation' page show the donation all data and when you click on the 'statistics' page show a dynamic pie chart.
