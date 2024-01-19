@@ -1,4 +1,4 @@
-# simple-donation-campaign
+## simple-donation-campaign
 
 3 features explanation of my 'simple-donation-campaign' project:
 * There is a navbar in my project where right side 3 menu pages 'Home', 'donation', 'statistics'
